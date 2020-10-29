@@ -1,0 +1,42 @@
+{
+	"info": {
+		"_postman_id": "9c4c7c5f-d480-4f69-a4ca-ca20b3cd8422",
+		"name": "Ocean_NodeJS_27_10_2020",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Hello World",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000",
+					"host": [
+						"localhost"
+					],
+					"port": "3000"
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Ler todas as mensagens",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{API_URL}}/mensagem",
+					"host": [
+						"{{API_URL}}"
+					],
+					"path": [
+						"mensagem"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
